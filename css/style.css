@@ -31,6 +31,10 @@
  * -----------------------------------------------------------------------------
  */
 
+#mov{
+    height: 30%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -951,6 +955,197 @@ h5.subtitle {
  * 8.0 Clients (section)
  * -----------------------------------------------------------------------------
  */
+
+
+
+.clients-area2 {
+    position: relative;
+    background-image: url('../images/testimonial2-img.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+.clients-area::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    z-index: 0;
+}
+
+.clients-area2 .section-heading {
+    text-align: left
+}
+
+.clients-area2 .testimonial-item {
+}
+
+.clients-area2 .testimonial-item .testimonial-description {
+    font-style: italic;
+    font-size: 14px;
+    background: #fff;
+    color: #222;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.clients-area2 .testimonial-item .testimonial-description::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 20px solid #fff;
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+}
+
+.clients-area2 .testimonial-item .testimonial-detail {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.clients-area2 .testimonial-item .testimonial-detail .img-item {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.clients-area2 .testimonial-item .testimonial-detail .caption {
+    display: inline-block;
+}
+
+.clients-area2 .testimonial-item .testimonial-detail .name {
+    font-weight: bold;
+    margin-top: 5px;
+    line-height: 21px;
+}
+
+.clients-area2 .testimonial-item .testimonial-detail .designation {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.clients-area2 .testimonial-item .testimonial-detail .designation a {
+    color: #3ee9d5;
+}
+
+.clients-area2 .testimonial-item .testimonial-detail .rating .checked {
+    color: orange;
+}
+
+.clients-area2 .testimonial-carousel {
+    position: relative;
+    width: 85%;
+}
+
+.clients-area2 .testimonial-carousel .owl-nav {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+}
+
+.clients-area2 .testimonial-carousel .owl-nav button {
+    background: #3e43e9;
+    padding: 10px !important;
+    line-height: 5px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+/*counter-area*/
+.clients-area2 .counter-area {
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.clients-area2 .counter-area .icon-box {
+    float: left;
+    font-size: 55px;
+    margin-right: 30px;
+    margin-left: 15px;
+    color: #3e43e9;
+}
+
+.clients-area2 .counter-area .counter {
+    font-weight: 800;
+    font-size: 45px;
+    overflow: hidden;
+}
+
+.clients-area2 .counter-area .counter kbd {
+    background: transparent;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.clients-area2 .counter-area .counter .description {
+    font-size: initial;
+    font-weight: 400;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .clients-area {
     position: relative;
